@@ -35,7 +35,7 @@ function prependKitten(name) {
 
   arr.push(name);
   for (var i = 0; i < kittens.length; i++) {
-    arr.push(kittens);
+    arr.push(kittens[i]);
   }
 
   return arr;
