@@ -50,3 +50,13 @@ function removeLastKitten() {
 
   return arr;
 }
+
+function removeFirstKitten() {
+  var arr = [];
+
+  for (var i = 1; i < kittens.length; i++) {
+    arr.push(kittens[i]);
+  }
+
+  return arr;
+}
