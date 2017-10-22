@@ -40,3 +40,13 @@ function prependKitten(name) {
 
   return arr;
 }
+
+function removeLastKitten() {
+  var arr = [];
+
+  for (var i = 0; i < kittens.length - 1; i++) {
+    arr.push(kittens[i]);
+  }
+
+  return arr;
+}
